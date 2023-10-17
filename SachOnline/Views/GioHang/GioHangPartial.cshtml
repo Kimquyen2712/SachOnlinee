@@ -1,0 +1,10 @@
+﻿
+@{
+    ViewBag.Title = "GioHangPartial";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h2>Giỏ hàng (@ViewBag.TongSoLuong)</h2>
+<a href="@Url.Action("GioHang","GioHang")" style="color:white; font-weight:bold; text-decoration:none;">
+    <img src="~/Images/giohang.png"/>Giỏ hàng (@ViewBag.TongSoLuong)
+</a>
